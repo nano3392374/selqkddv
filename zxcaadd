@@ -1625,7 +1625,7 @@ local function PBRWDOG_fake_script() -- eon_reborn.LocalScript
 						character:PivotTo(randomItem:GetPivot())
 						char.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 	
-						wait(1.5) until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale ~= -1
+						wait(1.5) until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale > -1
 					local near = getclosest()
 					repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.dialogbg.dialog.dropshadow.Text == "What should "..near.." do?"
 					local senv = getsenv(game.Players.LocalPlayer.PlayerGui["_G.Battle"])
