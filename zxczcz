@@ -1,0 +1,2564 @@
+local eon_reborn = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local page1 = Instance.new("Frame")
+local Minimize_1 = Instance.new("TextButton")
+local NextArrow_1 = Instance.new("TextButton")
+local MoveButton = Instance.new("TextButton")
+local Text = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local BackArrow_1 = Instance.new("TextButton")
+local page2 = Instance.new("Frame")
+local Minimize_2 = Instance.new("TextButton")
+local NextArrow_2 = Instance.new("TextButton")
+local PlayerTrading = Instance.new("TextBox")
+local TradeButton = Instance.new("TextButton")
+local Title_2 = Instance.new("TextLabel")
+local BackArrow_2 = Instance.new("TextButton")
+local PlayerList = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local PlayerName = Instance.new("TextButton")
+local page3 = Instance.new("Frame")
+local Minimize_3 = Instance.new("TextButton")
+local NextArrow_3 = Instance.new("TextButton")
+local FindButton = Instance.new("TextButton")
+local Title_3 = Instance.new("TextLabel")
+local BackArrow_3 = Instance.new("TextButton")
+local OpenPCButton = Instance.new("TextButton")
+local redzone = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local page4 = Instance.new("Frame")
+local Minimize_4 = Instance.new("TextButton")
+local NextArrow_4 = Instance.new("TextButton")
+local AddBP = Instance.new("TextButton")
+local Title_4 = Instance.new("TextLabel")
+local BackArrow_4 = Instance.new("TextButton")
+local BPValue = Instance.new("TextBox")
+local page5 = Instance.new("Frame")
+local Minimize_5 = Instance.new("TextButton")
+local NextArrow_5 = Instance.new("TextButton")
+local LevelUp = Instance.new("TextButton")
+local Title_5 = Instance.new("TextLabel")
+local BackArrow_5 = Instance.new("TextButton")
+local page6 = Instance.new("Frame")
+local Minimize_6 = Instance.new("TextButton")
+local NextArrow_6 = Instance.new("TextButton")
+local AddItem = Instance.new("TextButton")
+local Title_6 = Instance.new("TextLabel")
+local BackArrow_6 = Instance.new("TextButton")
+local SkinifierT = Instance.new("TextButton")
+local ShinifierT = Instance.new("TextButton")
+local TintifierT = Instance.new("TextButton")
+local AuraPotionT = Instance.new("TextButton")
+local DarkTintiferT = Instance.new("TextButton")
+local DarkAuraPotionT = Instance.new("TextButton")
+local page7 = Instance.new("Frame")
+local Minimize_7 = Instance.new("TextButton")
+local NextArrow_7 = Instance.new("TextButton")
+local AddMoney = Instance.new("TextButton")
+local Title_7 = Instance.new("TextLabel")
+local BackArrow_7 = Instance.new("TextButton")
+local MoneyVal2 = Instance.new("TextButton")
+local MoneyVal1 = Instance.new("TextButton")
+local MoneyVal3 = Instance.new("TextButton")
+local MoneyVal4 = Instance.new("TextButton")
+local page8 = Instance.new("Frame")
+local Minimize_8 = Instance.new("TextButton")
+local NextArrow_8 = Instance.new("TextButton")
+local Dupe = Instance.new("TextButton")
+local Title_8 = Instance.new("TextLabel")
+local BackArrow_8 = Instance.new("TextButton")
+local move = Instance.new("Frame")
+local Title_9 = Instance.new("TextLabel")
+local RepleaceMove = Instance.new("TextButton")
+local MoveTable = Instance.new("TextButton")
+local MoveList = Instance.new("ScrollingFrame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local MinimizeSpawn = Instance.new("TextButton")
+local Title_10 = Instance.new("TextLabel")
+local CurrentMoveList = Instance.new("ScrollingFrame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local CurrentMove = Instance.new("TextButton")
+local Title_11 = Instance.new("TextLabel")
+local Title_12 = Instance.new("TextLabel")
+local PokemonList = Instance.new("ScrollingFrame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local PokemonName = Instance.new("TextButton")
+local Title_13 = Instance.new("TextLabel")
+local MoveSearch = Instance.new("TextBox")
+local showgui = Instance.new("TextButton")
+local warning = Instance.new("Frame")
+local Title_14 = Instance.new("TextLabel")
+local Title_15 = Instance.new("TextLabel")
+local YesButton = Instance.new("TextButton")
+local NoButton = Instance.new("TextButton")
+local guide = Instance.new("Frame")
+local Title_16 = Instance.new("TextLabel")
+local OkayButton = Instance.new("TextButton")
+local Title_17 = Instance.new("TextLabel")
+local warningleave = Instance.new("Frame")
+local Title_18 = Instance.new("TextLabel")
+local LeaveButton = Instance.new("TextButton")
+local StayButton = Instance.new("TextButton")
+local Title_19 = Instance.new("TextLabel")
+local error = Instance.new("Frame")
+local Title_20 = Instance.new("TextLabel")
+local OkayButton_2 = Instance.new("TextButton")
+local Title_21 = Instance.new("TextLabel")
+local warningdupe = Instance.new("Frame")
+local Title_22 = Instance.new("TextLabel")
+local DupeButton = Instance.new("TextButton")
+local StayButton_2 = Instance.new("TextButton")
+local Title_23 = Instance.new("TextLabel")
+
+--Properties:
+
+eon_reborn.Name = "eon_reborn"
+eon_reborn.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+main.Name = "main"
+main.Parent = eon_reborn
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 1.000
+main.Position = UDim2.new(1, -306, 1, -176)
+main.Size = UDim2.new(0, 291, 0, 161)
+
+page1.Name = "page1"
+page1.Parent = main
+page1.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page1.BackgroundTransparency = 0.200
+page1.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page1.BorderSizePixel = 2
+page1.Position = UDim2.new(0.5, -122, 0.5, -62)
+page1.Size = UDim2.new(0, 245, 0, 124)
+
+Minimize_1.Name = "Minimize_1"
+Minimize_1.Parent = page1
+Minimize_1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_1.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_1.BorderSizePixel = 2
+Minimize_1.Position = UDim2.new(0, -10, 1, -15)
+Minimize_1.Size = UDim2.new(0, 25, 0, 25)
+Minimize_1.ZIndex = 9
+Minimize_1.Font = Enum.Font.Arcade
+Minimize_1.Text = "-"
+Minimize_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_1.TextScaled = true
+Minimize_1.TextSize = 14.000
+Minimize_1.TextWrapped = true
+
+NextArrow_1.Name = "NextArrow_1"
+NextArrow_1.Parent = page1
+NextArrow_1.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_1.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_1.BorderSizePixel = 2
+NextArrow_1.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_1.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_1.ZIndex = 9
+NextArrow_1.Font = Enum.Font.Arcade
+NextArrow_1.Text = ">"
+NextArrow_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_1.TextScaled = true
+NextArrow_1.TextSize = 14.000
+NextArrow_1.TextWrapped = true
+
+MoveButton.Name = "MoveButton"
+MoveButton.Parent = page1
+MoveButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+MoveButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoveButton.BorderSizePixel = 2
+MoveButton.Position = UDim2.new(0.5, -41, 1, -18)
+MoveButton.Size = UDim2.new(0, 82, 0, 28)
+MoveButton.ZIndex = 99
+MoveButton.Font = Enum.Font.Arcade
+MoveButton.Text = "OPEN"
+MoveButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoveButton.TextScaled = true
+MoveButton.TextSize = 14.000
+MoveButton.TextWrapped = true
+
+Text.Name = "Text"
+Text.Parent = page1
+Text.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.502040803, -105, 0.5, -42)
+Text.Size = UDim2.new(0, 210, 0, 77)
+Text.ZIndex = 9
+Text.Font = Enum.Font.Arcade
+Text.Text = "This allows you to get a variety of pokemon moves!"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = page1
+Title.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title.BorderSizePixel = 2
+Title.Position = UDim2.new(0.5, -88, 0, -10)
+Title.Size = UDim2.new(0, 177, 0, 25)
+Title.ZIndex = 100
+Title.Font = Enum.Font.Arcade
+Title.Text = "Move Replace Menu!"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+BackArrow_1.Name = "BackArrow_1"
+BackArrow_1.Parent = page1
+BackArrow_1.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_1.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_1.BorderSizePixel = 2
+BackArrow_1.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_1.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_1.ZIndex = 9
+BackArrow_1.Font = Enum.Font.Arcade
+BackArrow_1.Text = "<"
+BackArrow_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_1.TextScaled = true
+BackArrow_1.TextSize = 14.000
+BackArrow_1.TextWrapped = true
+
+page2.Name = "page2"
+page2.Parent = main
+page2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page2.BackgroundTransparency = 0.200
+page2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page2.BorderSizePixel = 2
+page2.Position = UDim2.new(0.5, -122, 0.5, -62)
+page2.Size = UDim2.new(0, 245, 0, 124)
+page2.Visible = false
+
+Minimize_2.Name = "Minimize_2"
+Minimize_2.Parent = page2
+Minimize_2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_2.BorderSizePixel = 2
+Minimize_2.Position = UDim2.new(0, -10, 1, -15)
+Minimize_2.Size = UDim2.new(0, 25, 0, 25)
+Minimize_2.ZIndex = 9
+Minimize_2.Font = Enum.Font.Arcade
+Minimize_2.Text = "-"
+Minimize_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_2.TextScaled = true
+Minimize_2.TextSize = 14.000
+Minimize_2.TextWrapped = true
+
+NextArrow_2.Name = "NextArrow_2"
+NextArrow_2.Parent = page2
+NextArrow_2.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_2.BorderSizePixel = 2
+NextArrow_2.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_2.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_2.ZIndex = 9
+NextArrow_2.Font = Enum.Font.Arcade
+NextArrow_2.Text = ">"
+NextArrow_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_2.TextScaled = true
+NextArrow_2.TextSize = 14.000
+NextArrow_2.TextWrapped = true
+
+PlayerTrading.Name = "PlayerTrading"
+PlayerTrading.Parent = page2
+PlayerTrading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerTrading.BorderColor3 = Color3.fromRGB(105, 105, 105)
+PlayerTrading.BorderSizePixel = 2
+PlayerTrading.Position = UDim2.new(0.5, -77, 0.354838699, -16)
+PlayerTrading.Size = UDim2.new(0, 154, 0, 29)
+PlayerTrading.Visible = false
+PlayerTrading.ZIndex = 99
+PlayerTrading.Font = Enum.Font.Arcade
+PlayerTrading.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+PlayerTrading.Text = "Player Name"
+PlayerTrading.TextColor3 = Color3.fromRGB(80, 80, 80)
+PlayerTrading.TextScaled = true
+PlayerTrading.TextSize = 14.000
+PlayerTrading.TextWrapped = true
+
+TradeButton.Name = "TradeButton"
+TradeButton.Parent = page2
+TradeButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+TradeButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+TradeButton.BorderSizePixel = 2
+TradeButton.Position = UDim2.new(0.5, -59, 1, -12)
+TradeButton.Size = UDim2.new(0, 118, 0, 22)
+TradeButton.ZIndex = 99
+TradeButton.Font = Enum.Font.Arcade
+TradeButton.Text = "FORCE TRADE!"
+TradeButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+TradeButton.TextScaled = true
+TradeButton.TextSize = 14.000
+TradeButton.TextWrapped = true
+
+Title_2.Name = "Title"
+Title_2.Parent = page2
+Title_2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_2.BorderSizePixel = 2
+Title_2.Position = UDim2.new(0.5, -88, 0, -10)
+Title_2.Size = UDim2.new(0, 177, 0, 25)
+Title_2.ZIndex = 100
+Title_2.Font = Enum.Font.Arcade
+Title_2.Text = "Trade Menu!"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+BackArrow_2.Name = "BackArrow_2"
+BackArrow_2.Parent = page2
+BackArrow_2.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_2.BorderSizePixel = 2
+BackArrow_2.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_2.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_2.ZIndex = 9
+BackArrow_2.Font = Enum.Font.Arcade
+BackArrow_2.Text = "<"
+BackArrow_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_2.TextScaled = true
+BackArrow_2.TextSize = 14.000
+BackArrow_2.TextWrapped = true
+
+PlayerList.Name = "PlayerList"
+PlayerList.Parent = page2
+PlayerList.Active = true
+PlayerList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerList.BorderColor3 = Color3.fromRGB(105, 105, 105)
+PlayerList.BorderSizePixel = 2
+PlayerList.Position = UDim2.new(0.18571429, 0, 0.459677428, 0)
+PlayerList.Size = UDim2.new(0, 154, 0, 51)
+PlayerList.Visible = false
+PlayerList.ZIndex = 97
+PlayerList.CanvasSize = UDim2.new(0, 0, 0, 100)
+PlayerList.ScrollBarThickness = 3
+
+UIGridLayout.Parent = PlayerList
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout.CellSize = UDim2.new(0, 154, 0, 21)
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = page2
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BorderColor3 = Color3.fromRGB(105, 105, 105)
+PlayerName.BorderSizePixel = 2
+PlayerName.Position = UDim2.new(0.5, -77, 0.354999989, -16)
+PlayerName.Size = UDim2.new(0, 154, 0, 29)
+PlayerName.ZIndex = 99
+PlayerName.Font = Enum.Font.Arcade
+PlayerName.Text = "Player Name"
+PlayerName.TextColor3 = Color3.fromRGB(80, 80, 80)
+PlayerName.TextScaled = true
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+page3.Name = "page3"
+page3.Parent = main
+page3.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page3.BackgroundTransparency = 0.200
+page3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page3.BorderSizePixel = 2
+page3.Position = UDim2.new(0.5, -122, 0.5, -62)
+page3.Size = UDim2.new(0, 245, 0, 124)
+page3.Visible = false
+
+Minimize_3.Name = "Minimize_3"
+Minimize_3.Parent = page3
+Minimize_3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_3.BorderSizePixel = 2
+Minimize_3.Position = UDim2.new(0, -10, 1, -15)
+Minimize_3.Size = UDim2.new(0, 25, 0, 25)
+Minimize_3.ZIndex = 9
+Minimize_3.Font = Enum.Font.Arcade
+Minimize_3.Text = "-"
+Minimize_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_3.TextScaled = true
+Minimize_3.TextSize = 14.000
+Minimize_3.TextWrapped = true
+
+NextArrow_3.Name = "NextArrow_3"
+NextArrow_3.Parent = page3
+NextArrow_3.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_3.BorderSizePixel = 2
+NextArrow_3.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_3.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_3.ZIndex = 9
+NextArrow_3.Font = Enum.Font.Arcade
+NextArrow_3.Text = ">"
+NextArrow_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_3.TextScaled = true
+NextArrow_3.TextSize = 14.000
+NextArrow_3.TextWrapped = true
+
+FindButton.Name = "FindButton"
+FindButton.Parent = page3
+FindButton.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+FindButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+FindButton.BorderSizePixel = 2
+FindButton.Position = UDim2.new(0.5, -32, 0.290322572, -12)
+FindButton.Size = UDim2.new(0, 64, 0, 22)
+FindButton.ZIndex = 99
+FindButton.Font = Enum.Font.Arcade
+FindButton.Text = "Stop!"
+FindButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FindButton.TextScaled = true
+FindButton.TextSize = 14.000
+FindButton.TextWrapped = true
+
+Title_3.Name = "Title"
+Title_3.Parent = page3
+Title_3.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_3.BorderSizePixel = 2
+Title_3.Position = UDim2.new(0.5, -88, 0, -10)
+Title_3.Size = UDim2.new(0, 177, 0, 25)
+Title_3.ZIndex = 100
+Title_3.Font = Enum.Font.Arcade
+Title_3.Text = "Auto Farm"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+BackArrow_3.Name = "BackArrow_3"
+BackArrow_3.Parent = page3
+BackArrow_3.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_3.BorderSizePixel = 2
+BackArrow_3.Position = UDim2.new(-0.0333647802, 0, -0.0846232697, 0)
+BackArrow_3.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_3.ZIndex = 9
+BackArrow_3.Font = Enum.Font.Arcade
+BackArrow_3.Text = "<"
+BackArrow_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_3.TextScaled = true
+BackArrow_3.TextSize = 14.000
+BackArrow_3.TextWrapped = true
+
+OpenPCButton.Name = "OpenPCButton"
+OpenPCButton.Parent = page3
+OpenPCButton.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+OpenPCButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+OpenPCButton.BorderSizePixel = 2
+OpenPCButton.Position = UDim2.new(0.883673489, -32, 0.395161301, -25)
+OpenPCButton.Size = UDim2.new(0, 45, 0, 29)
+OpenPCButton.ZIndex = 99
+OpenPCButton.Font = Enum.Font.Arcade
+OpenPCButton.Text = "OPEN PC!"
+OpenPCButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenPCButton.TextScaled = true
+OpenPCButton.TextSize = 14.000
+OpenPCButton.TextWrapped = true
+
+redzone.Name = "redzone"
+redzone.Parent = page3
+redzone.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+redzone.BorderSizePixel = 0
+redzone.Position = UDim2.new(0, 0, 0.504502833, 0)
+redzone.Size = UDim2.new(0, 245, 0, 22)
+
+TextLabel.Parent = page3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.167346939, 0, 0.506923556, 0)
+TextLabel.Size = UDim2.new(0, 170, 0, 23)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.Text = "Finish battle before openning PC"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+page4.Name = "page4"
+page4.Parent = main
+page4.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page4.BackgroundTransparency = 0.200
+page4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page4.BorderSizePixel = 2
+page4.Position = UDim2.new(0.5, -122, 0.5, -62)
+page4.Size = UDim2.new(0, 245, 0, 124)
+page4.Visible = false
+
+Minimize_4.Name = "Minimize_4"
+Minimize_4.Parent = page4
+Minimize_4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_4.BorderSizePixel = 2
+Minimize_4.Position = UDim2.new(0, -10, 1, -15)
+Minimize_4.Size = UDim2.new(0, 25, 0, 25)
+Minimize_4.ZIndex = 9
+Minimize_4.Font = Enum.Font.Arcade
+Minimize_4.Text = "-"
+Minimize_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_4.TextScaled = true
+Minimize_4.TextSize = 14.000
+Minimize_4.TextWrapped = true
+
+NextArrow_4.Name = "NextArrow_4"
+NextArrow_4.Parent = page4
+NextArrow_4.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_4.BorderSizePixel = 2
+NextArrow_4.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_4.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_4.ZIndex = 9
+NextArrow_4.Font = Enum.Font.Arcade
+NextArrow_4.Text = ">"
+NextArrow_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_4.TextScaled = true
+NextArrow_4.TextSize = 14.000
+NextArrow_4.TextWrapped = true
+
+AddBP.Name = "AddBP"
+AddBP.Parent = page4
+AddBP.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+AddBP.BorderColor3 = Color3.fromRGB(105, 105, 105)
+AddBP.BorderSizePixel = 2
+AddBP.Position = UDim2.new(0.5, -59, 0.79838711, -12)
+AddBP.Size = UDim2.new(0, 118, 0, 22)
+AddBP.ZIndex = 99
+AddBP.Font = Enum.Font.Arcade
+AddBP.Text = "ADD BP!"
+AddBP.TextColor3 = Color3.fromRGB(84, 84, 84)
+AddBP.TextScaled = true
+AddBP.TextSize = 14.000
+AddBP.TextWrapped = true
+
+Title_4.Name = "Title"
+Title_4.Parent = page4
+Title_4.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_4.BorderSizePixel = 2
+Title_4.Position = UDim2.new(0.5, -88, 0, -10)
+Title_4.Size = UDim2.new(0, 177, 0, 25)
+Title_4.ZIndex = 100
+Title_4.Font = Enum.Font.Arcade
+Title_4.Text = "BP Menu!"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextWrapped = true
+
+BackArrow_4.Name = "BackArrow_4"
+BackArrow_4.Parent = page4
+BackArrow_4.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_4.BorderSizePixel = 2
+BackArrow_4.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_4.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_4.ZIndex = 9
+BackArrow_4.Font = Enum.Font.Arcade
+BackArrow_4.Text = "<"
+BackArrow_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_4.TextScaled = true
+BackArrow_4.TextSize = 14.000
+BackArrow_4.TextWrapped = true
+
+BPValue.Name = "BPValue"
+BPValue.Parent = page4
+BPValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BPValue.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BPValue.BorderSizePixel = 2
+BPValue.Position = UDim2.new(0.5, -77, 0.459677428, -16)
+BPValue.Size = UDim2.new(0, 154, 0, 29)
+BPValue.ZIndex = 99
+BPValue.Font = Enum.Font.Arcade
+BPValue.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+BPValue.Text = "How much BP!"
+BPValue.TextColor3 = Color3.fromRGB(80, 80, 80)
+BPValue.TextScaled = true
+BPValue.TextSize = 14.000
+BPValue.TextWrapped = true
+
+page5.Name = "page5"
+page5.Parent = main
+page5.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page5.BackgroundTransparency = 0.200
+page5.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page5.BorderSizePixel = 2
+page5.Position = UDim2.new(0.5, -122, 0.5, -62)
+page5.Size = UDim2.new(0, 245, 0, 124)
+page5.Visible = false
+
+Minimize_5.Name = "Minimize_5"
+Minimize_5.Parent = page5
+Minimize_5.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_5.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_5.BorderSizePixel = 2
+Minimize_5.Position = UDim2.new(0, -10, 1, -15)
+Minimize_5.Size = UDim2.new(0, 25, 0, 25)
+Minimize_5.ZIndex = 9
+Minimize_5.Font = Enum.Font.Arcade
+Minimize_5.Text = "-"
+Minimize_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_5.TextScaled = true
+Minimize_5.TextSize = 14.000
+Minimize_5.TextWrapped = true
+
+NextArrow_5.Name = "NextArrow_5"
+NextArrow_5.Parent = page5
+NextArrow_5.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_5.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_5.BorderSizePixel = 2
+NextArrow_5.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_5.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_5.ZIndex = 9
+NextArrow_5.Font = Enum.Font.Arcade
+NextArrow_5.Text = ">"
+NextArrow_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_5.TextScaled = true
+NextArrow_5.TextSize = 14.000
+NextArrow_5.TextWrapped = true
+
+LevelUp.Name = "LevelUp"
+LevelUp.Parent = page5
+LevelUp.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+LevelUp.BorderColor3 = Color3.fromRGB(105, 105, 105)
+LevelUp.BorderSizePixel = 2
+LevelUp.Position = UDim2.new(0.5, -59, 0.435483873, -12)
+LevelUp.Size = UDim2.new(0, 118, 0, 48)
+LevelUp.ZIndex = 99
+LevelUp.Font = Enum.Font.Arcade
+LevelUp.Text = "Max Level"
+LevelUp.TextColor3 = Color3.fromRGB(84, 84, 84)
+LevelUp.TextScaled = true
+LevelUp.TextSize = 14.000
+LevelUp.TextWrapped = true
+
+Title_5.Name = "Title"
+Title_5.Parent = page5
+Title_5.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_5.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_5.BorderSizePixel = 2
+Title_5.Position = UDim2.new(0.5, -88, 0, -10)
+Title_5.Size = UDim2.new(0, 177, 0, 25)
+Title_5.ZIndex = 100
+Title_5.Font = Enum.Font.Arcade
+Title_5.Text = "Level Menu!"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextScaled = true
+Title_5.TextSize = 14.000
+Title_5.TextWrapped = true
+
+BackArrow_5.Name = "BackArrow_5"
+BackArrow_5.Parent = page5
+BackArrow_5.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_5.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_5.BorderSizePixel = 2
+BackArrow_5.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_5.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_5.ZIndex = 9
+BackArrow_5.Font = Enum.Font.Arcade
+BackArrow_5.Text = "<"
+BackArrow_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_5.TextScaled = true
+BackArrow_5.TextSize = 14.000
+BackArrow_5.TextWrapped = true
+
+page6.Name = "page6"
+page6.Parent = main
+page6.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page6.BackgroundTransparency = 0.200
+page6.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page6.BorderSizePixel = 2
+page6.Position = UDim2.new(0.5, -122, 0.257763982, -62)
+page6.Size = UDim2.new(0, 245, 0, 163)
+page6.Visible = false
+
+Minimize_6.Name = "Minimize_6"
+Minimize_6.Parent = page6
+Minimize_6.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_6.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_6.BorderSizePixel = 2
+Minimize_6.Position = UDim2.new(0, -10, 1, -15)
+Minimize_6.Size = UDim2.new(0, 25, 0, 25)
+Minimize_6.ZIndex = 9
+Minimize_6.Font = Enum.Font.Arcade
+Minimize_6.Text = "-"
+Minimize_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_6.TextScaled = true
+Minimize_6.TextSize = 14.000
+Minimize_6.TextWrapped = true
+
+NextArrow_6.Name = "NextArrow_6"
+NextArrow_6.Parent = page6
+NextArrow_6.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_6.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_6.BorderSizePixel = 2
+NextArrow_6.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_6.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_6.ZIndex = 9
+NextArrow_6.Font = Enum.Font.Arcade
+NextArrow_6.Text = ">"
+NextArrow_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_6.TextScaled = true
+NextArrow_6.TextSize = 14.000
+NextArrow_6.TextWrapped = true
+
+AddItem.Name = "Add Item"
+AddItem.Parent = page6
+AddItem.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+AddItem.BorderColor3 = Color3.fromRGB(105, 105, 105)
+AddItem.BorderSizePixel = 2
+AddItem.Position = UDim2.new(0.5, -59, 0.847466767, -12)
+AddItem.Size = UDim2.new(0, 118, 0, 29)
+AddItem.ZIndex = 99
+AddItem.Font = Enum.Font.Arcade
+AddItem.Text = "Get Items!"
+AddItem.TextColor3 = Color3.fromRGB(84, 84, 84)
+AddItem.TextScaled = true
+AddItem.TextSize = 14.000
+AddItem.TextWrapped = true
+
+Title_6.Name = "Title"
+Title_6.Parent = page6
+Title_6.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_6.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_6.BorderSizePixel = 2
+Title_6.Position = UDim2.new(0.5, -88, 0, -10)
+Title_6.Size = UDim2.new(0, 177, 0, 25)
+Title_6.ZIndex = 100
+Title_6.Font = Enum.Font.Arcade
+Title_6.Text = "Item Menu!"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextScaled = true
+Title_6.TextSize = 14.000
+Title_6.TextWrapped = true
+
+BackArrow_6.Name = "BackArrow_6"
+BackArrow_6.Parent = page6
+BackArrow_6.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_6.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_6.BorderSizePixel = 2
+BackArrow_6.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_6.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_6.ZIndex = 9
+BackArrow_6.Font = Enum.Font.Arcade
+BackArrow_6.Text = "<"
+BackArrow_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_6.TextScaled = true
+BackArrow_6.TextSize = 14.000
+BackArrow_6.TextWrapped = true
+
+SkinifierT.Name = "SkinifierT"
+SkinifierT.Parent = page6
+SkinifierT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+SkinifierT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+SkinifierT.BorderSizePixel = 2
+SkinifierT.Position = UDim2.new(0.300000012, -60, 0.289999992, -12)
+SkinifierT.Size = UDim2.new(0, 70, 0, 30)
+SkinifierT.ZIndex = 99
+SkinifierT.Font = Enum.Font.Arcade
+SkinifierT.Text = "Skinifier X999"
+SkinifierT.TextColor3 = Color3.fromRGB(84, 84, 84)
+SkinifierT.TextScaled = true
+SkinifierT.TextSize = 14.000
+SkinifierT.TextWrapped = true
+
+ShinifierT.Name = "ShinifierT"
+ShinifierT.Parent = page6
+ShinifierT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+ShinifierT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+ShinifierT.BorderSizePixel = 2
+ShinifierT.Position = UDim2.new(0.622448981, -59, 0.290322572, -12)
+ShinifierT.Size = UDim2.new(0, 70, 0, 30)
+ShinifierT.ZIndex = 99
+ShinifierT.Font = Enum.Font.Arcade
+ShinifierT.Text = "Shinifier X999"
+ShinifierT.TextColor3 = Color3.fromRGB(84, 84, 84)
+ShinifierT.TextScaled = true
+ShinifierT.TextSize = 14.000
+ShinifierT.TextWrapped = true
+
+TintifierT.Name = "TintifierT"
+TintifierT.Parent = page6
+TintifierT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+TintifierT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+TintifierT.BorderSizePixel = 2
+TintifierT.Position = UDim2.new(0.936734676, -59, 0.290322572, -12)
+TintifierT.Size = UDim2.new(0, 70, 0, 30)
+TintifierT.ZIndex = 99
+TintifierT.Font = Enum.Font.Arcade
+TintifierT.Text = "Tintifier X999"
+TintifierT.TextColor3 = Color3.fromRGB(84, 84, 84)
+TintifierT.TextScaled = true
+TintifierT.TextSize = 14.000
+TintifierT.TextWrapped = true
+
+AuraPotionT.Name = "AuraPotionT"
+AuraPotionT.Parent = page6
+AuraPotionT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+AuraPotionT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+AuraPotionT.BorderSizePixel = 2
+AuraPotionT.Position = UDim2.new(0.295918375, -59, 0.583613694, -12)
+AuraPotionT.Size = UDim2.new(0, 70, 0, 30)
+AuraPotionT.ZIndex = 99
+AuraPotionT.Font = Enum.Font.Arcade
+AuraPotionT.Text = "Aura Potion X999"
+AuraPotionT.TextColor3 = Color3.fromRGB(84, 84, 84)
+AuraPotionT.TextScaled = true
+AuraPotionT.TextSize = 14.000
+AuraPotionT.TextWrapped = true
+
+DarkTintiferT.Name = "DarkTintiferT"
+DarkTintiferT.Parent = page6
+DarkTintiferT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+DarkTintiferT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+DarkTintiferT.BorderSizePixel = 2
+DarkTintiferT.Position = UDim2.new(0.936734676, -59, 0.583613694, -12)
+DarkTintiferT.Size = UDim2.new(0, 70, 0, 30)
+DarkTintiferT.ZIndex = 99
+DarkTintiferT.Font = Enum.Font.Arcade
+DarkTintiferT.Text = "Dark Tint X999"
+DarkTintiferT.TextColor3 = Color3.fromRGB(84, 84, 84)
+DarkTintiferT.TextSize = 12.000
+DarkTintiferT.TextWrapped = true
+
+DarkAuraPotionT.Name = "DarkAuraPotionT"
+DarkAuraPotionT.Parent = page6
+DarkAuraPotionT.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+DarkAuraPotionT.BorderColor3 = Color3.fromRGB(105, 105, 105)
+DarkAuraPotionT.BorderSizePixel = 2
+DarkAuraPotionT.Position = UDim2.new(0.622448981, -59, 0.583613694, -12)
+DarkAuraPotionT.Size = UDim2.new(0, 70, 0, 30)
+DarkAuraPotionT.ZIndex = 99
+DarkAuraPotionT.Font = Enum.Font.Arcade
+DarkAuraPotionT.Text = "Dark Aura X999"
+DarkAuraPotionT.TextColor3 = Color3.fromRGB(84, 84, 84)
+DarkAuraPotionT.TextScaled = true
+DarkAuraPotionT.TextSize = 14.000
+DarkAuraPotionT.TextWrapped = true
+
+page7.Name = "page7"
+page7.Parent = main
+page7.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page7.BackgroundTransparency = 0.200
+page7.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page7.BorderSizePixel = 2
+page7.Position = UDim2.new(0.5, -122, 0.5, -62)
+page7.Size = UDim2.new(0, 245, 0, 124)
+page7.Visible = false
+
+Minimize_7.Name = "Minimize_7"
+Minimize_7.Parent = page7
+Minimize_7.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_7.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_7.BorderSizePixel = 2
+Minimize_7.Position = UDim2.new(0, -10, 1, -15)
+Minimize_7.Size = UDim2.new(0, 25, 0, 25)
+Minimize_7.ZIndex = 9
+Minimize_7.Font = Enum.Font.Arcade
+Minimize_7.Text = "-"
+Minimize_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_7.TextScaled = true
+Minimize_7.TextSize = 14.000
+Minimize_7.TextWrapped = true
+
+NextArrow_7.Name = "NextArrow_7"
+NextArrow_7.Parent = page7
+NextArrow_7.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_7.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_7.BorderSizePixel = 2
+NextArrow_7.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_7.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_7.ZIndex = 9
+NextArrow_7.Font = Enum.Font.Arcade
+NextArrow_7.Text = ">"
+NextArrow_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_7.TextScaled = true
+NextArrow_7.TextSize = 14.000
+NextArrow_7.TextWrapped = true
+
+AddMoney.Name = "AddMoney"
+AddMoney.Parent = page7
+AddMoney.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+AddMoney.BorderColor3 = Color3.fromRGB(105, 105, 105)
+AddMoney.BorderSizePixel = 2
+AddMoney.Position = UDim2.new(0.5, -59, 0.79838711, -12)
+AddMoney.Size = UDim2.new(0, 118, 0, 22)
+AddMoney.ZIndex = 99
+AddMoney.Font = Enum.Font.Arcade
+AddMoney.Text = "ADD MONEY!"
+AddMoney.TextColor3 = Color3.fromRGB(84, 84, 84)
+AddMoney.TextScaled = true
+AddMoney.TextSize = 14.000
+AddMoney.TextWrapped = true
+
+Title_7.Name = "Title"
+Title_7.Parent = page7
+Title_7.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_7.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_7.BorderSizePixel = 2
+Title_7.Position = UDim2.new(0.5, -88, 0, -10)
+Title_7.Size = UDim2.new(0, 177, 0, 25)
+Title_7.ZIndex = 100
+Title_7.Font = Enum.Font.Arcade
+Title_7.Text = "Money Menu!"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextScaled = true
+Title_7.TextSize = 14.000
+Title_7.TextWrapped = true
+
+BackArrow_7.Name = "BackArrow_7"
+BackArrow_7.Parent = page7
+BackArrow_7.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_7.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_7.BorderSizePixel = 2
+BackArrow_7.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_7.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_7.ZIndex = 9
+BackArrow_7.Font = Enum.Font.Arcade
+BackArrow_7.Text = "<"
+BackArrow_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_7.TextScaled = true
+BackArrow_7.TextSize = 14.000
+BackArrow_7.TextWrapped = true
+
+MoneyVal2.Name = "MoneyVal2"
+MoneyVal2.Parent = page7
+MoneyVal2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+MoneyVal2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoneyVal2.BorderSizePixel = 2
+MoneyVal2.Position = UDim2.new(0.622448981, -59, 0.290322572, -12)
+MoneyVal2.Size = UDim2.new(0, 59, 0, 20)
+MoneyVal2.ZIndex = 99
+MoneyVal2.Font = Enum.Font.Arcade
+MoneyVal2.Text = "100,000"
+MoneyVal2.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoneyVal2.TextScaled = true
+MoneyVal2.TextSize = 14.000
+MoneyVal2.TextWrapped = true
+
+MoneyVal1.Name = "MoneyVal1"
+MoneyVal1.Parent = page7
+MoneyVal1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+MoneyVal1.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoneyVal1.BorderSizePixel = 2
+MoneyVal1.Position = UDim2.new(0.300000012, -59, 0.290322572, -12)
+MoneyVal1.Size = UDim2.new(0, 59, 0, 20)
+MoneyVal1.ZIndex = 99
+MoneyVal1.Font = Enum.Font.Arcade
+MoneyVal1.Text = "20,000"
+MoneyVal1.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoneyVal1.TextScaled = true
+MoneyVal1.TextSize = 14.000
+MoneyVal1.TextWrapped = true
+
+MoneyVal3.Name = "MoneyVal3"
+MoneyVal3.Parent = page7
+MoneyVal3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+MoneyVal3.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoneyVal3.BorderSizePixel = 2
+MoneyVal3.Position = UDim2.new(0.936734676, -59, 0.290322572, -12)
+MoneyVal3.Size = UDim2.new(0, 59, 0, 20)
+MoneyVal3.ZIndex = 99
+MoneyVal3.Font = Enum.Font.Arcade
+MoneyVal3.Text = "500,000"
+MoneyVal3.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoneyVal3.TextScaled = true
+MoneyVal3.TextSize = 14.000
+MoneyVal3.TextWrapped = true
+
+MoneyVal4.Name = "MoneyVal4"
+MoneyVal4.Parent = page7
+MoneyVal4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+MoneyVal4.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoneyVal4.BorderSizePixel = 2
+MoneyVal4.Position = UDim2.new(0.622448981, -59, 0.516129017, -12)
+MoneyVal4.Size = UDim2.new(0, 59, 0, 20)
+MoneyVal4.ZIndex = 99
+MoneyVal4.Font = Enum.Font.Arcade
+MoneyVal4.Text = "1,000,000"
+MoneyVal4.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoneyVal4.TextScaled = true
+MoneyVal4.TextSize = 14.000
+MoneyVal4.TextWrapped = true
+
+page8.Name = "page8"
+page8.Parent = main
+page8.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+page8.BackgroundTransparency = 0.200
+page8.BorderColor3 = Color3.fromRGB(105, 105, 105)
+page8.BorderSizePixel = 2
+page8.Position = UDim2.new(0.5, -122, 0.5, -62)
+page8.Size = UDim2.new(0, 245, 0, 124)
+page8.Visible = false
+
+Minimize_8.Name = "Minimize_8"
+Minimize_8.Parent = page8
+Minimize_8.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+Minimize_8.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Minimize_8.BorderSizePixel = 2
+Minimize_8.Position = UDim2.new(0, -10, 1, -15)
+Minimize_8.Size = UDim2.new(0, 25, 0, 25)
+Minimize_8.ZIndex = 9
+Minimize_8.Font = Enum.Font.Arcade
+Minimize_8.Text = "-"
+Minimize_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_8.TextScaled = true
+Minimize_8.TextSize = 14.000
+Minimize_8.TextWrapped = true
+
+NextArrow_8.Name = "NextArrow_8"
+NextArrow_8.Parent = page8
+NextArrow_8.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+NextArrow_8.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NextArrow_8.BorderSizePixel = 2
+NextArrow_8.Position = UDim2.new(1, -15, 0, -10)
+NextArrow_8.Size = UDim2.new(0, 25, 0, 25)
+NextArrow_8.ZIndex = 9
+NextArrow_8.Font = Enum.Font.Arcade
+NextArrow_8.Text = ">"
+NextArrow_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextArrow_8.TextScaled = true
+NextArrow_8.TextSize = 14.000
+NextArrow_8.TextWrapped = true
+
+Dupe.Name = "Dupe"
+Dupe.Parent = page8
+Dupe.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+Dupe.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Dupe.BorderSizePixel = 2
+Dupe.Position = UDim2.new(0.5, -59, 0.435483873, -12)
+Dupe.Size = UDim2.new(0, 118, 0, 48)
+Dupe.ZIndex = 99
+Dupe.Font = Enum.Font.Arcade
+Dupe.Text = "DUPE!"
+Dupe.TextColor3 = Color3.fromRGB(84, 84, 84)
+Dupe.TextScaled = true
+Dupe.TextSize = 14.000
+Dupe.TextWrapped = true
+
+Title_8.Name = "Title"
+Title_8.Parent = page8
+Title_8.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_8.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_8.BorderSizePixel = 2
+Title_8.Position = UDim2.new(0.5, -88, 0, -10)
+Title_8.Size = UDim2.new(0, 177, 0, 25)
+Title_8.ZIndex = 100
+Title_8.Font = Enum.Font.Arcade
+Title_8.Text = "Dupe Menu!"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextScaled = true
+Title_8.TextSize = 14.000
+Title_8.TextWrapped = true
+
+BackArrow_8.Name = "BackArrow_8"
+BackArrow_8.Parent = page8
+BackArrow_8.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+BackArrow_8.BorderColor3 = Color3.fromRGB(105, 105, 105)
+BackArrow_8.BorderSizePixel = 2
+BackArrow_8.Position = UDim2.new(0, -10, 0, -10)
+BackArrow_8.Size = UDim2.new(0, 25, 0, 25)
+BackArrow_8.ZIndex = 9
+BackArrow_8.Font = Enum.Font.Arcade
+BackArrow_8.Text = "<"
+BackArrow_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+BackArrow_8.TextScaled = true
+BackArrow_8.TextSize = 14.000
+BackArrow_8.TextWrapped = true
+
+move.Name = "move"
+move.Parent = eon_reborn
+move.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+move.BorderColor3 = Color3.fromRGB(105, 105, 105)
+move.BorderSizePixel = 2
+move.Position = UDim2.new(0.5, -124, 0.5, -132)
+move.Size = UDim2.new(0, 248, 0, 263)
+move.Visible = false
+
+Title_9.Name = "Title"
+Title_9.Parent = move
+Title_9.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_9.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_9.BorderSizePixel = 2
+Title_9.Position = UDim2.new(0.504000008, -112, -0.0320000015, -12)
+Title_9.Size = UDim2.new(0, 224, 0, 21)
+Title_9.ZIndex = 99
+Title_9.Font = Enum.Font.Arcade
+Title_9.Text = "Pokemon Moves"
+Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextScaled = true
+Title_9.TextSize = 14.000
+Title_9.TextWrapped = true
+
+RepleaceMove.Name = "RepleaceMove"
+RepleaceMove.Parent = move
+RepleaceMove.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+RepleaceMove.BorderColor3 = Color3.fromRGB(105, 105, 105)
+RepleaceMove.BorderSizePixel = 2
+RepleaceMove.Position = UDim2.new(0.504032254, -41, 0.825095057, -18)
+RepleaceMove.Size = UDim2.new(0, 82, 0, 28)
+RepleaceMove.ZIndex = 99
+RepleaceMove.Font = Enum.Font.Arcade
+RepleaceMove.Text = "REPLACE!"
+RepleaceMove.TextColor3 = Color3.fromRGB(84, 84, 84)
+RepleaceMove.TextScaled = true
+RepleaceMove.TextSize = 14.000
+RepleaceMove.TextWrapped = true
+
+MoveTable.Name = "MoveTable"
+MoveTable.Parent = move
+MoveTable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoveTable.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoveTable.BorderSizePixel = 2
+MoveTable.Position = UDim2.new(0.292121649, -41, 0.448669195, -18)
+MoveTable.Size = UDim2.new(0, 182, 0, 21)
+MoveTable.ZIndex = 113
+MoveTable.Font = Enum.Font.Arcade
+MoveTable.Text = "Select Move"
+MoveTable.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoveTable.TextScaled = true
+MoveTable.TextSize = 14.000
+MoveTable.TextWrapped = true
+
+MoveList.Name = "MoveList"
+MoveList.Parent = move
+MoveList.Active = true
+MoveList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoveList.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoveList.BorderSizePixel = 2
+MoveList.Position = UDim2.new(0.125, 0, 0.460076034, 0)
+MoveList.Size = UDim2.new(0, 182, 0, 65)
+MoveList.Visible = false
+MoveList.ZIndex = 111
+MoveList.CanvasSize = UDim2.new(0, 0, 0, 100)
+MoveList.ScrollBarThickness = 3
+
+UIGridLayout_2.Parent = MoveList
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_2.CellSize = UDim2.new(0, 182, 0, 21)
+
+MinimizeSpawn.Name = "MinimizeSpawn"
+MinimizeSpawn.Parent = move
+MinimizeSpawn.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+MinimizeSpawn.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MinimizeSpawn.BorderSizePixel = 2
+MinimizeSpawn.Position = UDim2.new(1.01209688, -15, 1.01280761, -15)
+MinimizeSpawn.Size = UDim2.new(0, 20, 0, 20)
+MinimizeSpawn.ZIndex = 99
+MinimizeSpawn.Font = Enum.Font.Arcade
+MinimizeSpawn.Text = "X"
+MinimizeSpawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+MinimizeSpawn.TextScaled = true
+MinimizeSpawn.TextSize = 14.000
+MinimizeSpawn.TextWrapped = true
+
+Title_10.Name = "Title"
+Title_10.Parent = move
+Title_10.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_10.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_10.BorderSizePixel = 2
+Title_10.Position = UDim2.new(0.685000002, -112, 0.319999993, -12)
+Title_10.Size = UDim2.new(0, 130, 0, 21)
+Title_10.ZIndex = 99
+Title_10.Font = Enum.Font.Arcade
+Title_10.Text = "Move to Add"
+Title_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.TextSize = 14.000
+
+CurrentMoveList.Name = "Current MoveList"
+CurrentMoveList.Parent = move
+CurrentMoveList.Active = true
+CurrentMoveList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CurrentMoveList.BorderColor3 = Color3.fromRGB(105, 105, 105)
+CurrentMoveList.BorderSizePixel = 0
+CurrentMoveList.Position = UDim2.new(0.129032254, 0, 0.707224369, 0)
+CurrentMoveList.Size = UDim2.new(0, 182, 0, 65)
+CurrentMoveList.Visible = false
+CurrentMoveList.ZIndex = 108
+CurrentMoveList.CanvasSize = UDim2.new(0, 0, 0, 100)
+CurrentMoveList.ScrollBarThickness = 3
+
+UIGridLayout_3.Parent = CurrentMoveList
+UIGridLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_3.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_3.CellSize = UDim2.new(0, 182, 0, 21)
+
+CurrentMove.Name = "CurrentMove"
+CurrentMove.Parent = move
+CurrentMove.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CurrentMove.BorderColor3 = Color3.fromRGB(105, 105, 105)
+CurrentMove.BorderSizePixel = 2
+CurrentMove.Position = UDim2.new(0.296153903, -41, 0.69581753, -18)
+CurrentMove.Size = UDim2.new(0, 182, 0, 21)
+CurrentMove.ZIndex = 110
+CurrentMove.Font = Enum.Font.Arcade
+CurrentMove.Text = "Select Move"
+CurrentMove.TextColor3 = Color3.fromRGB(84, 84, 84)
+CurrentMove.TextScaled = true
+CurrentMove.TextSize = 14.000
+CurrentMove.TextWrapped = true
+
+Title_11.Name = "Title"
+Title_11.Parent = move
+Title_11.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_11.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_11.BorderSizePixel = 2
+Title_11.Position = UDim2.new(0.685483873, -112, 0.567909718, -12)
+Title_11.Size = UDim2.new(0, 130, 0, 21)
+Title_11.ZIndex = 99
+Title_11.Font = Enum.Font.Arcade
+Title_11.Text = "Move to Replace"
+Title_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.TextSize = 14.000
+
+Title_12.Name = "Title"
+Title_12.Parent = move
+Title_12.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_12.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_12.BorderSizePixel = 2
+Title_12.Position = UDim2.new(0.503712118, -102, 0.964172423, -16)
+Title_12.Size = UDim2.new(0, 204, 0, 33)
+Title_12.ZIndex = 99
+Title_12.Font = Enum.Font.Arcade
+Title_12.Text = "Note: Avoid Scrolling Down While Searching. You Must Fill Everything  Before Pressing Spawn!"
+Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.TextScaled = true
+Title_12.TextSize = 14.000
+Title_12.TextWrapped = true
+
+PokemonList.Name = "PokemonList"
+PokemonList.Parent = move
+PokemonList.Active = true
+PokemonList.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PokemonList.BorderColor3 = Color3.fromRGB(105, 105, 105)
+PokemonList.BorderSizePixel = 0
+PokemonList.Position = UDim2.new(0.125, 0, 0.224334598, 0)
+PokemonList.Size = UDim2.new(0, 182, 0, 65)
+PokemonList.Visible = false
+PokemonList.ZIndex = 115
+PokemonList.CanvasSize = UDim2.new(0, 0, 0, 100)
+PokemonList.ScrollBarThickness = 3
+
+UIGridLayout_4.Parent = PokemonList
+UIGridLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_4.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_4.CellSize = UDim2.new(0, 182, 0, 21)
+
+PokemonName.Name = "Pokemon Name"
+PokemonName.Parent = move
+PokemonName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PokemonName.BorderColor3 = Color3.fromRGB(105, 105, 105)
+PokemonName.BorderSizePixel = 2
+PokemonName.Position = UDim2.new(0.292121649, -41, 0.212927759, -18)
+PokemonName.Size = UDim2.new(0, 182, 0, 21)
+PokemonName.ZIndex = 116
+PokemonName.Font = Enum.Font.Arcade
+PokemonName.Text = "Select Pokemon"
+PokemonName.TextColor3 = Color3.fromRGB(84, 84, 84)
+PokemonName.TextScaled = true
+PokemonName.TextSize = 14.000
+PokemonName.TextWrapped = true
+
+Title_13.Name = "Title"
+Title_13.Parent = move
+Title_13.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_13.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_13.BorderSizePixel = 2
+Title_13.Position = UDim2.new(0.685000002, -112, 0.074395448, -12)
+Title_13.Size = UDim2.new(0, 130, 0, 21)
+Title_13.ZIndex = 99
+Title_13.Font = Enum.Font.Arcade
+Title_13.Text = "Select Pokemon"
+Title_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_13.TextSize = 14.000
+
+MoveSearch.Name = "MoveSearch"
+MoveSearch.Parent = move
+MoveSearch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoveSearch.BorderColor3 = Color3.fromRGB(105, 105, 105)
+MoveSearch.BorderSizePixel = 2
+MoveSearch.Position = UDim2.new(0.291999996, -41, 0.449000001, -18)
+MoveSearch.Size = UDim2.new(0, 182, 0, 21)
+MoveSearch.Visible = false
+MoveSearch.ZIndex = 110
+MoveSearch.Font = Enum.Font.Arcade
+MoveSearch.PlaceholderColor3 = Color3.fromRGB(84, 84, 84)
+MoveSearch.Text = "Search here!"
+MoveSearch.TextColor3 = Color3.fromRGB(84, 84, 84)
+MoveSearch.TextScaled = true
+MoveSearch.TextSize = 14.000
+MoveSearch.TextWrapped = true
+
+showgui.Name = "showgui"
+showgui.Parent = eon_reborn
+showgui.BackgroundColor3 = Color3.fromRGB(84, 170, 255)
+showgui.BorderColor3 = Color3.fromRGB(105, 105, 105)
+showgui.BorderSizePixel = 3
+showgui.Position = UDim2.new(0.971853018, -12, 0.947916687, -12)
+showgui.Size = UDim2.new(0, 25, 0, 25)
+showgui.Visible = false
+showgui.ZIndex = 9
+showgui.Font = Enum.Font.Arcade
+showgui.Text = "<"
+showgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+showgui.TextScaled = true
+showgui.TextSize = 14.000
+showgui.TextWrapped = true
+
+warning.Name = "warning"
+warning.Parent = eon_reborn
+warning.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+warning.BorderColor3 = Color3.fromRGB(105, 105, 105)
+warning.BorderSizePixel = 2
+warning.Position = UDim2.new(0.5, -124, 0.5, -132)
+warning.Size = UDim2.new(0, 248, 0, 163)
+warning.Visible = false
+
+Title_14.Name = "Title"
+Title_14.Parent = warning
+Title_14.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_14.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_14.BorderSizePixel = 2
+Title_14.Position = UDim2.new(0.499967754, -112, 0.00602281233, -12)
+Title_14.Size = UDim2.new(0, 224, 0, 38)
+Title_14.ZIndex = 100
+Title_14.Font = Enum.Font.Arcade
+Title_14.Text = "WARNING!"
+Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_14.TextScaled = true
+Title_14.TextSize = 14.000
+Title_14.TextWrapped = true
+
+Title_15.Name = "Title"
+Title_15.Parent = warning
+Title_15.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_15.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_15.BorderSizePixel = 2
+Title_15.Position = UDim2.new(0.499679804, -102, 0.263339549, -16)
+Title_15.Size = UDim2.new(0, 204, 0, 81)
+Title_15.ZIndex = 99
+Title_15.Font = Enum.Font.Arcade
+Title_15.Text = "Note: This Leveling poke is not instant it will take time to level up your Pokemon(Level 100) Are you sure you want to continue?"
+Title_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_15.TextScaled = true
+Title_15.TextSize = 14.000
+Title_15.TextWrapped = true
+
+YesButton.Name = "YesButton"
+YesButton.Parent = warning
+YesButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+YesButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+YesButton.BorderSizePixel = 2
+YesButton.Position = UDim2.new(0.443548381, -59, 0.810656965, -12)
+YesButton.Size = UDim2.new(0, 54, 0, 37)
+YesButton.ZIndex = 99
+YesButton.Font = Enum.Font.Arcade
+YesButton.Text = "Yes"
+YesButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+YesButton.TextScaled = true
+YesButton.TextSize = 14.000
+YesButton.TextWrapped = true
+
+NoButton.Name = "NoButton"
+NoButton.Parent = warning
+NoButton.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+NoButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+NoButton.BorderSizePixel = 2
+NoButton.Position = UDim2.new(0.814516127, -59, 0.810656965, -12)
+NoButton.Size = UDim2.new(0, 54, 0, 37)
+NoButton.ZIndex = 99
+NoButton.Font = Enum.Font.Arcade
+NoButton.Text = "No"
+NoButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+NoButton.TextScaled = true
+NoButton.TextSize = 14.000
+NoButton.TextWrapped = true
+
+guide.Name = "guide"
+guide.Parent = eon_reborn
+guide.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+guide.BorderColor3 = Color3.fromRGB(105, 105, 105)
+guide.BorderSizePixel = 2
+guide.Position = UDim2.new(0.5, -124, 0.5, -132)
+guide.Size = UDim2.new(0, 248, 0, 163)
+guide.Visible = false
+
+Title_16.Name = "Title"
+Title_16.Parent = guide
+Title_16.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_16.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_16.BorderSizePixel = 2
+Title_16.Position = UDim2.new(0.499967754, -112, 0.00602281233, -12)
+Title_16.Size = UDim2.new(0, 224, 0, 38)
+Title_16.ZIndex = 100
+Title_16.Font = Enum.Font.Arcade
+Title_16.Text = "GUIDE"
+Title_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_16.TextScaled = true
+Title_16.TextSize = 14.000
+Title_16.TextWrapped = true
+
+OkayButton.Name = "OkayButton"
+OkayButton.Parent = guide
+OkayButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+OkayButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+OkayButton.BorderSizePixel = 2
+OkayButton.Position = UDim2.new(0.625, -59, 0.767712176, -12)
+OkayButton.Size = UDim2.new(0, 54, 0, 37)
+OkayButton.ZIndex = 99
+OkayButton.Font = Enum.Font.Arcade
+OkayButton.Text = "OKAY"
+OkayButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+OkayButton.TextScaled = true
+OkayButton.TextSize = 14.000
+OkayButton.TextWrapped = true
+
+Title_17.Name = "Title"
+Title_17.Parent = guide
+Title_17.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_17.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_17.BorderSizePixel = 2
+Title_17.Position = UDim2.new(0.499679804, -102, 0.263339549, -16)
+Title_17.Size = UDim2.new(0, 204, 0, 81)
+Title_17.ZIndex = 99
+Title_17.Font = Enum.Font.Arcade
+Title_17.Text = "Note: You need to encounter pokemon in wild[Normaly] for this to work [Warning: dont use auto farm to encounter in wild if you want to lvl your pokemon]"
+Title_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_17.TextScaled = true
+Title_17.TextSize = 14.000
+Title_17.TextWrapped = true
+
+warningleave.Name = "warningleave"
+warningleave.Parent = eon_reborn
+warningleave.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+warningleave.BorderColor3 = Color3.fromRGB(105, 105, 105)
+warningleave.BorderSizePixel = 2
+warningleave.Position = UDim2.new(0.5, -124, 0.5, -132)
+warningleave.Size = UDim2.new(0, 248, 0, 163)
+warningleave.Visible = false
+
+Title_18.Name = "Title"
+Title_18.Parent = warningleave
+Title_18.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_18.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_18.BorderSizePixel = 2
+Title_18.Position = UDim2.new(0.499967754, -112, -0.0430569313, -12)
+Title_18.Size = UDim2.new(0, 224, 0, 38)
+Title_18.ZIndex = 100
+Title_18.Font = Enum.Font.Arcade
+Title_18.Text = "WARNING!"
+Title_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_18.TextScaled = true
+Title_18.TextSize = 14.000
+Title_18.TextWrapped = true
+
+LeaveButton.Name = "LeaveButton"
+LeaveButton.Parent = warningleave
+LeaveButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+LeaveButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+LeaveButton.BorderSizePixel = 2
+LeaveButton.Position = UDim2.new(0.443548381, -59, 0.810656965, -12)
+LeaveButton.Size = UDim2.new(0, 54, 0, 37)
+LeaveButton.ZIndex = 99
+LeaveButton.Font = Enum.Font.Arcade
+LeaveButton.Text = "Yes"
+LeaveButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+LeaveButton.TextScaled = true
+LeaveButton.TextSize = 14.000
+LeaveButton.TextWrapped = true
+
+StayButton.Name = "StayButton"
+StayButton.Parent = warningleave
+StayButton.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+StayButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+StayButton.BorderSizePixel = 2
+StayButton.Position = UDim2.new(0.814516127, -59, 0.810656965, -12)
+StayButton.Size = UDim2.new(0, 54, 0, 37)
+StayButton.ZIndex = 99
+StayButton.Font = Enum.Font.Arcade
+StayButton.Text = "No"
+StayButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+StayButton.TextScaled = true
+StayButton.TextSize = 14.000
+StayButton.TextWrapped = true
+
+Title_19.Name = "Title"
+Title_19.Parent = warningleave
+Title_19.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_19.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_19.BorderSizePixel = 2
+Title_19.Position = UDim2.new(0.499679804, -102, 0.214259803, -16)
+Title_19.Size = UDim2.new(0, 204, 0, 93)
+Title_19.ZIndex = 99
+Title_19.Font = Enum.Font.Arcade
+Title_19.Text = "Note: This add item script will exit your roblox game [But dont worry you will get the item and your current data will be save] Are you sure you want to continue?"
+Title_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_19.TextScaled = true
+Title_19.TextSize = 14.000
+Title_19.TextWrapped = true
+
+error.Name = "error"
+error.Parent = eon_reborn
+error.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+error.BorderColor3 = Color3.fromRGB(105, 105, 105)
+error.BorderSizePixel = 2
+error.Position = UDim2.new(0.5, -124, 0.5, -132)
+error.Size = UDim2.new(0, 248, 0, 163)
+error.Visible = false
+
+Title_20.Name = "Title"
+Title_20.Parent = error
+Title_20.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_20.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_20.BorderSizePixel = 2
+Title_20.Position = UDim2.new(0.499967754, -112, 0.00602281233, -12)
+Title_20.Size = UDim2.new(0, 224, 0, 38)
+Title_20.ZIndex = 100
+Title_20.Font = Enum.Font.Arcade
+Title_20.Text = "ERROR!"
+Title_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_20.TextScaled = true
+Title_20.TextSize = 14.000
+Title_20.TextWrapped = true
+
+OkayButton_2.Name = "OkayButton"
+OkayButton_2.Parent = error
+OkayButton_2.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+OkayButton_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+OkayButton_2.BorderSizePixel = 2
+OkayButton_2.Position = UDim2.new(0.625, -59, 0.767712176, -12)
+OkayButton_2.Size = UDim2.new(0, 54, 0, 37)
+OkayButton_2.ZIndex = 99
+OkayButton_2.Font = Enum.Font.Arcade
+OkayButton_2.Text = "OKAY"
+OkayButton_2.TextColor3 = Color3.fromRGB(84, 84, 84)
+OkayButton_2.TextScaled = true
+OkayButton_2.TextSize = 14.000
+OkayButton_2.TextWrapped = true
+
+Title_21.Name = "Title"
+Title_21.Parent = error
+Title_21.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_21.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_21.BorderSizePixel = 2
+Title_21.Position = UDim2.new(0.499679804, -102, 0.263339549, -16)
+Title_21.Size = UDim2.new(0, 204, 0, 81)
+Title_21.ZIndex = 99
+Title_21.Font = Enum.Font.Arcade
+Title_21.Text = "Note: You have to select atleast one or you can select multiple Items to make this to work."
+Title_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_21.TextScaled = true
+Title_21.TextSize = 14.000
+Title_21.TextWrapped = true
+
+warningdupe.Name = "warningdupe"
+warningdupe.Parent = eon_reborn
+warningdupe.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+warningdupe.BorderColor3 = Color3.fromRGB(105, 105, 105)
+warningdupe.BorderSizePixel = 2
+warningdupe.Position = UDim2.new(0.5, -124, 0.5, -132)
+warningdupe.Size = UDim2.new(0, 248, 0, 163)
+warningdupe.Visible = false
+
+Title_22.Name = "Title"
+Title_22.Parent = warningdupe
+Title_22.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_22.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_22.BorderSizePixel = 2
+Title_22.Position = UDim2.new(0.499967754, -112, -0.0430569313, -12)
+Title_22.Size = UDim2.new(0, 224, 0, 38)
+Title_22.ZIndex = 100
+Title_22.Font = Enum.Font.Arcade
+Title_22.Text = "WARNING!"
+Title_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_22.TextScaled = true
+Title_22.TextSize = 14.000
+Title_22.TextWrapped = true
+
+DupeButton.Name = "DupeButton"
+DupeButton.Parent = warningdupe
+DupeButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+DupeButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+DupeButton.BorderSizePixel = 2
+DupeButton.Position = UDim2.new(0.443548381, -59, 0.810656965, -12)
+DupeButton.Size = UDim2.new(0, 54, 0, 37)
+DupeButton.ZIndex = 99
+DupeButton.Font = Enum.Font.Arcade
+DupeButton.Text = "Yes"
+DupeButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+DupeButton.TextScaled = true
+DupeButton.TextSize = 14.000
+DupeButton.TextWrapped = true
+
+StayButton_2.Name = "StayButton"
+StayButton_2.Parent = warningdupe
+StayButton_2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+StayButton_2.BorderColor3 = Color3.fromRGB(105, 105, 105)
+StayButton_2.BorderSizePixel = 2
+StayButton_2.Position = UDim2.new(0.814516127, -59, 0.810656965, -12)
+StayButton_2.Size = UDim2.new(0, 54, 0, 37)
+StayButton_2.ZIndex = 99
+StayButton_2.Font = Enum.Font.Arcade
+StayButton_2.Text = "No"
+StayButton_2.TextColor3 = Color3.fromRGB(84, 84, 84)
+StayButton_2.TextScaled = true
+StayButton_2.TextSize = 14.000
+StayButton_2.TextWrapped = true
+
+Title_23.Name = "Title"
+Title_23.Parent = warningdupe
+Title_23.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Title_23.BorderColor3 = Color3.fromRGB(105, 105, 105)
+Title_23.BorderSizePixel = 2
+Title_23.Position = UDim2.new(0.499679804, -102, 0.214259803, -16)
+Title_23.Size = UDim2.new(0, 204, 0, 93)
+Title_23.ZIndex = 99
+Title_23.Font = Enum.Font.Arcade
+Title_23.Text = "Note: Do not Forget to save before duping, and make sure you added the pokemon you want to dupe in your team. are you sure you want to continue?"
+Title_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_23.TextScaled = true
+Title_23.TextSize = 14.000
+Title_23.TextWrapped = true
+
+-- Scripts:
+
+local function LFUXJYS_fake_script() -- eon_reborn.mainlocal 
+	local script = Instance.new('LocalScript', eon_reborn)
+
+	
+	
+	script.Parent.main.page1.MoveButton.MouseButton1Click:Connect(function()
+		if script.Parent.move.Visible == false then
+			script.Parent.move.PokemonList.Visible = false
+			script.Parent.move.MoveList.Visible = false
+			script.Parent.move.MoveSearch.Visible = false
+			script.Parent.move.MoveSearch.Text = "Search here!"
+			script.Parent.move.MoveTable.Visible = true
+			script.Parent.move["Current MoveList"].Visible = false
+			script.Parent.main.page1.MoveButton.Text = "CLOSE"
+			script.Parent.move.Visible = true
+		else
+			script.Parent.main.page1.MoveButton.Text = "OPEN"
+			script.Parent.move.Visible = false
+		end
+	end)
+	
+	script.Parent.move.MinimizeSpawn.MouseButton1Click:Connect(function()
+		script.Parent.move.PokemonList.Visible = false
+		script.Parent.move.MoveList.Visible = false
+		script.Parent.move.MoveSearch.Visible = false
+		script.Parent.move.MoveSearch.Text = "Search here!"
+		script.Parent.move.MoveTable.Visible = true
+		script.Parent.move["Current MoveList"].Visible = false
+		script.Parent.main.page1.MoveButton.Text = "OPEN"
+		script.Parent.move.Visible = false
+		
+	end)
+	
+	script.Parent.main.page1.Minimize_1.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.move.PokemonList.Visible = false
+			script.Parent.move.MoveList.Visible = false
+			script.Parent.move.MoveSearch.Visible = false
+			script.Parent.move.MoveSearch.Text = "Search here!"
+			script.Parent.move.MoveTable.Visible = true
+			script.Parent.move["Current MoveList"].Visible = false
+			script.Parent.main.Visible = false
+			
+			script.Parent.main.page1.MoveButton.Text = "OPEN"
+			script.Parent.move.Visible = false
+			script.Parent.showgui.Visible = true
+		end
+	end)
+	
+	script.Parent.showgui.MouseButton1Click:Connect(function()
+		if script.Parent.main.Visible == false then
+			script.Parent.main.Visible = true
+			script.Parent.showgui.Visible = false
+		end
+	end)
+	
+	
+	
+	
+	
+	
+	for i, v in pairs(require(game.ReplicatedStorage.Information.Moves)) do 
+	
+		local textButton = Instance.new("TextButton")
+		textButton.Parent = script.Parent.move.MoveList
+		textButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		textButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+		textButton.BorderSizePixel = 2
+		textButton.Size = UDim2.new(0, 200, 0, 50)
+		textButton.ZIndex = 112
+		textButton.Font = Enum.Font.Arcade
+		textButton.Text = i
+		textButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+		textButton.TextScaled = true
+		textButton.TextSize = 14.000
+		textButton.TextWrapped = true
+		textButton.MouseButton1Click:Connect(function()
+			script.Parent.move.MoveTable.Text = textButton.Text
+			script.Parent.move.MoveSearch.Visible = false
+			script.Parent.move.MoveTable.Visible  = true
+			script.Parent.move.MoveSearch.Text = "Search here!"
+			script.Parent.move.MoveList.Visible = false
+		end)
+	
+	end
+	
+	local FrameHolder = script.Parent.move.MoveList
+	
+	local function SortFrames()
+		local frames = {}
+	
+		for i, child in ipairs(FrameHolder:GetChildren()) do
+			if child:IsA("TextButton") then
+				table.insert(frames, child)
+			end
+		end
+	
+		table.sort(frames, function(frame1, frame2)
+			return frame1.Text:lower() < frame2.Text:lower()
+		end)
+	
+		for i, sortedFrame in ipairs(frames) do
+			sortedFrame.LayoutOrder = i
+		end
+	end
+	local function visiblescroll()
+	
+	
+		for z, x in ipairs(FrameHolder:GetChildren()) do
+			if x:IsA("TextButton") then
+				x.Visible = true
+			end
+		end
+	
+		
+	end
+	
+	
+	script.Parent.move.MoveTable.MouseButton1Click:Connect(function()
+		if script.Parent.move.MoveList.Visible == false then
+			SortFrames()
+			visiblescroll()
+			script.Parent.move.MoveList.CanvasSize = UDim2.new(0,0,0,script.Parent.move.MoveList.UIGridLayout.AbsoluteContentSize.Y)
+			script.Parent.move.MoveTable.Visible  = false
+			script.Parent.move.MoveSearch.Visible  = true
+			script.Parent.move.MoveList.Visible  = true
+		end
+	end)
+	
+	script.Parent.move["Pokemon Name"].MouseButton1Click:Connect(function()
+		if script.Parent.move.PokemonList.Visible == false then
+			for u, p in pairs(script.Parent.move.PokemonList:GetChildren()) do
+				if p.Name == "TextButton" then
+					p:Remove()
+				end
+			end
+			for h, k in pairs(game.Players.LocalPlayer.PokemonParty:GetChildren()) do 
+				local textButton = Instance.new("TextButton")
+				textButton.Parent = script.Parent.move.PokemonList
+				textButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				textButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+				textButton.BorderSizePixel = 2
+				textButton.Size = UDim2.new(0, 200, 0, 50)
+				textButton.ZIndex = 115
+				textButton.Font = Enum.Font.Arcade
+				textButton.Text = k.Name
+				textButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+				textButton.TextScaled = true
+				textButton.TextSize = 14.000
+				textButton.TextWrapped = true
+				script.Parent.move.PokemonList.CanvasSize = UDim2.new(0,0,0,script.Parent.move.PokemonList.UIGridLayout.AbsoluteContentSize.Y)
+				textButton.MouseButton1Click:Connect(function()
+					script.Parent.move["Pokemon Name"].Text = textButton.Text
+					script.Parent.move.PokemonList.Visible = false
+				end)
+	
+			end
+			SortFrames()
+			script.Parent.move.PokemonList.Visible = true
+		else
+			script.Parent.move.PokemonList.Visible = false
+		end
+	end)
+	
+	script.Parent.move.CurrentMove.MouseButton1Click:Connect(function()
+		if script.Parent.move["Current MoveList"].Visible == false then
+			for qq, ww in pairs(script.Parent.move["Current MoveList"]:GetChildren()) do
+				if ww.Name == "TextButton" then
+					ww:Remove()
+				end
+			end
+			for jq, lq in pairs(game.Players.LocalPlayer.PokemonParty[script.Parent.move["Pokemon Name"].Text].Moves:GetChildren()) do
+				local textButton = Instance.new("TextButton")
+				textButton.Parent = script.Parent.move["Current MoveList"]
+				textButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				textButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+				textButton.BorderSizePixel = 2
+				textButton.Size = UDim2.new(0, 200, 0, 50)
+				textButton.ZIndex = 109
+				textButton.Font = Enum.Font.Arcade
+				textButton.Text = lq.Name
+				textButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+				textButton.TextScaled = true
+				textButton.TextSize = 14.000
+				textButton.TextWrapped = true
+				script.Parent.move["Current MoveList"].CanvasSize = UDim2.new(0,0,0,script.Parent.move["Current MoveList"].UIGridLayout.AbsoluteContentSize.Y)
+				textButton.MouseButton1Click:Connect(function()
+					script.Parent.move.CurrentMove.Text = textButton.Text
+					script.Parent.move["Current MoveList"].Visible = false
+				end)
+			end
+			SortFrames()
+			script.Parent.move["Current MoveList"].Visible  = true
+		else
+			script.Parent.move["Current MoveList"].Visible  = false
+		end
+	end)
+	
+	
+	local ScrollingFrame = script.Parent.move.MoveList
+	local SearchBar = script.Parent.move.MoveSearch
+	SearchBar:GetPropertyChangedSignal("Text"):Connect(function()
+		local InputText = string.lower(SearchBar.Text)
+		for _, Button in pairs(ScrollingFrame:GetChildren()) do
+			if Button:IsA("TextButton")then
+				Button.Visible = string.find(string.lower(Button.Text), InputText) and true or false
+			end
+		end
+		
+	end)
+	
+	
+	
+	
+	script.Parent.move.RepleaceMove.MouseButton1Click:Connect(function()
+			local v1 = game:GetService("Players").LocalPlayer.PokemonParty[script.Parent.move["Pokemon Name"].Text]
+			local v2 = game:GetService("Players").LocalPlayer.PokemonParty[script.Parent.move["Pokemon Name"].Text].Moves[script.Parent.move["CurrentMove"].Text]
+			local v3 = script.Parent.move["MoveTable"].Text
+			local event = game:GetService("ReplicatedStorage").REvents.Pokemon.TMLearn
+			event:InvokeServer(v1, v2, v3)
+	end)
+	
+	
+	script.Parent.main.page1.NextArrow_1.MouseButton1Click:Connect(function()
+		script.Parent.main.page1.Visible = false
+		script.Parent.main.page2.Visible = true
+		script.Parent.move.PokemonList.Visible = false
+		script.Parent.move.MoveList.Visible = false
+		script.Parent.move.MoveSearch.Visible = false
+		script.Parent.move.MoveSearch.Text = "Search here!"
+		script.Parent.move.MoveTable.Visible = true
+		script.Parent.move["Current MoveList"].Visible = false
+		script.Parent.main.page1.MoveButton.Text = "OPEN"
+		script.Parent.move.Visible = false
+	end)
+	script.Parent.main.page1.BackArrow_1.MouseButton1Click:Connect(function()
+		script.Parent.main.page1.Visible = false
+		script.Parent.main.page8.Visible = true
+		script.Parent.move.PokemonList.Visible = false
+		script.Parent.move.MoveList.Visible = false
+		script.Parent.move.MoveSearch.Visible = false
+		script.Parent.move.MoveSearch.Text = "Search here!"
+		script.Parent.move.MoveTable.Visible = true
+		script.Parent.move["Current MoveList"].Visible = false
+		script.Parent.main.page1.MoveButton.Text = "OPEN"
+		script.Parent.move.Visible = false
+	end)
+	script.Parent.main.page2.NextArrow_2.MouseButton1Click:Connect(function()
+		script.Parent.main.page2.Visible = false
+		script.Parent.main.page3.Visible = true
+		script.Parent.move.PokemonList.Visible = false
+		script.Parent.move.MoveList.Visible = false
+		script.Parent.move.MoveSearch.Visible = false
+		script.Parent.move.MoveSearch.Text = "Search here!"
+		script.Parent.move.MoveTable.Visible = true
+		script.Parent.move["Current MoveList"].Visible = false
+		script.Parent.main.page1.MoveButton.Text = "OPEN"
+		script.Parent.move.Visible = false
+	end)
+	script.Parent.main.page2.BackArrow_2.MouseButton1Click:Connect(function()
+		script.Parent.main.page2.Visible = false
+		script.Parent.main.page1.Visible = true
+		script.Parent.move.PokemonList.Visible = false
+		script.Parent.move.MoveList.Visible = false
+		script.Parent.move.MoveSearch.Visible = false
+		script.Parent.move.MoveSearch.Text = "Search here!"
+		script.Parent.move.MoveTable.Visible = true
+		script.Parent.move["Current MoveList"].Visible = false
+		script.Parent.main.page1.MoveButton.Text = "OPEN"
+		script.Parent.move.Visible = false
+	end)
+	
+	
+	
+	
+	
+	
+	script.Parent.main.page2.PlayerName.MouseButton1Click:Connect(function()
+		
+			for m, n in pairs(script.Parent.main.page2.PlayerList:GetChildren()) do
+				if n.Name == "TextButton" then
+					n:Remove()
+				end
+			end
+		for N, M in pairs(game.Players:GetChildren()) do 
+			if M.Name ~= game.Players.LocalPlayer.Name then
+				local textButton = Instance.new("TextButton")
+				textButton.Parent = script.Parent.main.page2.PlayerList
+				textButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				textButton.BorderColor3 = Color3.fromRGB(105, 105, 105)
+				textButton.BorderSizePixel = 2
+				textButton.Size = UDim2.new(0, 154, 0, 21)
+				textButton.ZIndex = 98
+				textButton.Font = Enum.Font.Arcade
+				textButton.Text = M.Name
+				textButton.TextColor3 = Color3.fromRGB(84, 84, 84)
+				textButton.TextScaled = true
+				textButton.TextSize = 14.000
+			    textButton.TextWrapped = true
+			    script.Parent.main.page2.PlayerList.CanvasSize = UDim2.new(0,0,0,script.Parent.main.page2.PlayerList.UIGridLayout.AbsoluteContentSize.Y)
+				textButton.MouseButton1Click:Connect(function()
+				script.Parent.main.page2.PlayerName.Text = textButton.Text
+				script.Parent.main.page2.PlayerList.Visible = false
+				script.Parent.main.page2.PlayerName.Visible = true
+				script.Parent.main.page2.PlayerTrading.Visible = false
+					
+				end)
+	end
+			end
+		   SortFrames()
+		    script.Parent.main.page2.PlayerList.CanvasSize = UDim2.new(0,0,0,script.Parent.main.page2.PlayerList.UIGridLayout.AbsoluteContentSize.Y)
+			script.Parent.main.page2.PlayerList.Visible = true
+			script.Parent.main.page2.PlayerName.Visible = false
+			script.Parent.main.page2.PlayerTrading.Visible = true
+	end)
+	
+	
+	local ScrollingFrame = script.Parent.main.page2.PlayerList
+	local SearchBar = script.Parent.main.page2.PlayerTrading
+	SearchBar:GetPropertyChangedSignal("Text"):Connect(function()
+		local InputText = string.lower(SearchBar.Text)
+		for _, Button in pairs(ScrollingFrame:GetChildren()) do
+			if Button:IsA("TextButton")then
+				Button.Visible = string.find(string.lower(Button.Text), InputText) and true or false
+			end
+		end
+	
+	end)
+	
+	script.Parent.main.page2.Minimize_2.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.main.page2.PlayerTrading.Visible = false
+			script.Parent.main.page2.PlayerName.Visible = true
+			script.Parent.main.page2.PlayerList.Visible = false
+			script.Parent.showgui.Visible = true
+		end
+	end)
+	
+	script.Parent.main.page2.TradeButton.MouseButton1Click:Connect(function()
+		if script.Parent.main.page2.PlayerName.Text ~= "Player Name" then
+			local remote = game["Workspace"]["Remotes"]["Action"]
+	
+			local args = {
+				[1] = "Accept",
+				[2] = game["Players"][script.Parent.main.page2.PlayerName.Text]
+			}
+			remote:FireServer(unpack(args))
+		end
+	end)
+end
+coroutine.wrap(LFUXJYS_fake_script)()
+local function FWDCA_fake_script() -- eon_reborn.LocalScript 
+	local script = Instance.new('LocalScript', eon_reborn)
+
+	startss = false
+	moneyval = 0
+	
+	local getclosest = function()
+		local ClosestObject
+		for i, v in pairs(game:GetService("Players").LocalPlayer.PokemonParty:GetChildren()) do
+			if v.PartyPosition.Value == 1 then
+				ClosestObject = v.Name
+			end
+		end
+		return ClosestObject
+	end
+	
+	
+	script.Parent.main.page3.OpenPCButton.MouseButton1Click:Connect(function()
+		if script.Parent.main.page3.FindButton.Text == "Stop!" then
+			getrenv()._G.PCSystem()
+		end
+	end)
+	
+	
+	script.Parent.main.page3.FindButton.MouseButton1Click:Connect(function()
+		if startss == false then
+			script.Parent.main.page3.FindButton.Text = "Start!"
+			script.Parent.main.page3.FindButton.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+			startss = true
+	
+			
+		else 
+			script.Parent.main.page3.FindButton.Text = "Stop!"
+			script.Parent.main.page3.FindButton.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			startss = false
+			
+			
+		end
+	end)
+	
+	spawn(function()
+		while true do
+			wait()
+			if startss == true then
+				pcall(function()
+					getrenv()._G.HUNTCOMMAND = true
+					repeat 
+						local place =  workspace.WildAreas:GetChildren()
+						local randomplace = place[math.random(1, #place)]
+						local randomm = randomplace
+						local currentPivot = randomm:GetPivot()
+						local char = game.Players.LocalPlayer.Character
+						local character = char.HumanoidRootPart
+						character:PivotTo(currentPivot)
+						local items = randomm:GetChildren()
+						local randomItem = items[math.random(1, #items)]
+	
+						character:PivotTo(randomItem:GetPivot())
+						char.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+	
+						wait(1.5) until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale ~= -1
+					local near = getclosest()
+					repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.dialogbg.dialog.dropshadow.Text == "What should "..near.." do?"
+					local senv = getsenv(game.Players.LocalPlayer.PlayerGui["_G.Battle"])
+					senv.capturedpokemon("Master Ball")
+					for i,v in ipairs(game:GetService("Players").LocalPlayer.OppPokemon:GetChildren()) do
+						senv.losehealth(100, game.Players.LocalPlayer.OppPokemon[v.Name], true, "Lolz")
+					end
+	
+					repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.ButtonHolder.Fight.Visible == true
+	
+					local vim = game:GetService'VirtualInputManager'
+					local x = game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.ButtonHolder.Run
+	
+					vim:SendMouseButtonEvent(x.AbsolutePosition.X+x.AbsoluteSize.X/2,x.AbsolutePosition.Y+50,0,true,x,1)
+					vim:SendMouseButtonEvent(x.AbsolutePosition.X+x.AbsoluteSize.X/2,x.AbsolutePosition.Y+50,0,false,x,1)
+					getrenv()._G.HUNTCOMMAND = false
+					repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale == -1
+				end)
+			end
+		end
+	end)
+	
+	
+	
+	script.Parent.main.page3.BackArrow_3.MouseButton1Click:Connect(function()
+		script.Parent.main.page3.Visible = false
+		script.Parent.main.page2.Visible = true
+		
+	end)
+	script.Parent.main.page3.NextArrow_3.MouseButton1Click:Connect(function()
+		script.Parent.main.page3.Visible = false
+		script.Parent.main.page4.Visible = true
+		
+	end)
+	script.Parent.main.page3.Minimize_3.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+		end
+	end)
+	
+	
+	
+	script.Parent.main.page4.BackArrow_4.MouseButton1Click:Connect(function()
+		script.Parent.main.page4.Visible = false
+		script.Parent.main.page3.Visible = true
+	
+	end)
+	script.Parent.main.page4.NextArrow_4.MouseButton1Click:Connect(function()
+		script.Parent.main.page4.Visible = false
+		script.Parent.main.page5.Visible = true
+	
+	end)
+	
+	script.Parent.main.page4.Minimize_4.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+		end
+	end)
+	
+	script.Parent.main.page4.AddBP.MouseButton1Click:Connect(function()
+		if tonumber(script.Parent.main.page4.BPValue.Text) then
+			local value = tonumber(script.Parent.main.page4.BPValue.Text)
+			repeat 
+				if value >= 300 then
+					local v1 = 300
+					local v2 = "\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133"
+					local event = game:GetService("ReplicatedStorage").REvents.Pokemon.GreenPill
+					event:InvokeServer(v1, v2)
+					value = value - 300
+				else
+					local newval = value - 300
+					local v1 = newval + 300
+					local v2 = "\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133"
+					local event = game:GetService("ReplicatedStorage").REvents.Pokemon.GreenPill
+					event:InvokeServer(v1, v2)
+					value = 0
+				end
+				wait() until value == 0
+		else
+			script.Parent.main.page4.AddBP.Text = "ERROR"
+			script.Parent.main.page4.AddBP.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			wait(0.5)
+			script.Parent.main.page4.AddBP.Text = "ADD BP!"
+			script.Parent.main.page4.AddBP.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+		end
+	end)
+	
+	
+	
+	
+	script.Parent.main.page5.BackArrow_5.MouseButton1Click:Connect(function()
+		script.Parent.main.page5.Visible = false
+		script.Parent.main.page4.Visible = true
+		script.Parent.warning.Visible = false
+		script.Parent.guide.Visible = false
+	
+	end)
+	script.Parent.main.page5.NextArrow_5.MouseButton1Click:Connect(function()
+		script.Parent.main.page5.Visible = false
+		script.Parent.main.page6.Visible = true
+		script.Parent.warning.Visible = false
+		script.Parent.guide.Visible = false
+	
+	end)
+	
+	script.Parent.main.page5.Minimize_5.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+			script.Parent.warning.Visible = false
+			script.Parent.guide.Visible = false
+		end
+	end)
+	
+	script.Parent.main.page5.LevelUp.MouseButton1Click:Connect(function()
+		if game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale > -1 and game:GetService("Players").LocalPlayer.PlayerGui.Main.BlackScreen.Visible == true then
+			script.Parent.warning.Visible = true
+		else
+			script.Parent.guide.Visible = true
+		end
+	
+	end)
+	
+	
+	
+	script.Parent.error.OkayButton.MouseButton1Click:Connect(function()
+		script.Parent.error.Visible = false
+	end)
+	
+	script.Parent.main.page6["Add Item"].MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.SkinifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) and script.Parent.main.page6.ShinifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) and script.Parent.main.page6.TintifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) and script.Parent.main.page6.AuraPotionT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) and script.Parent.main.page6.DarkAuraPotionT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) and script.Parent.main.page6.DarkTintiferT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.error.Visible = true
+		else
+			script.Parent.warningleave.Visible = true
+		end
+	
+	end)
+	
+	script.Parent.main.page6.SkinifierT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.SkinifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.SkinifierT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.SkinifierT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+		
+	end)
+	script.Parent.main.page6.TintifierT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.TintifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.TintifierT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.TintifierT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+	
+	end)
+	script.Parent.main.page6.ShinifierT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.ShinifierT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.ShinifierT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.ShinifierT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+	
+	end)
+	script.Parent.main.page6.AuraPotionT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.AuraPotionT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.AuraPotionT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.AuraPotionT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+	
+	end)
+	script.Parent.main.page6.DarkAuraPotionT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.DarkAuraPotionT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.DarkAuraPotionT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.DarkAuraPotionT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+	
+	end)
+	script.Parent.main.page6.DarkTintiferT.MouseButton1Click:Connect(function()
+		if script.Parent.main.page6.DarkTintiferT.BackgroundColor3  == Color3.fromRGB(255, 89, 93) then
+			script.Parent.main.page6.DarkTintiferT.BackgroundColor3  = Color3.fromRGB(84, 255, 126)
+		else
+			script.Parent.main.page6.DarkTintiferT.BackgroundColor3  = Color3.fromRGB(255, 89, 93)
+		end
+	
+	end)
+	
+	
+	script.Parent.warning.NoButton.MouseButton1Click:Connect(function()
+		script.Parent.warning.Visible = false
+	end)
+	
+	script.Parent.guide.OkayButton.MouseButton1Click:Connect(function()
+		script.Parent.guide.Visible = false
+	end)
+	
+	
+	
+	script.Parent.warning.YesButton.MouseButton1Click:Connect(function()
+		script.Parent.main.Visible = false
+		script.Parent.showgui.Visible = true
+		script.Parent.warning.Visible = false
+		script.Parent.guide.Visible = false
+		if game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.Position.Y.Scale > -1 and game:GetService("Players").LocalPlayer.PlayerGui.Main.BlackScreen.Visible == true then
+	
+			local nears = getclosest()
+			repeat wait(1) until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.dialogbg.dialog.dropshadow.Text == "What should "..nears.." do?"
+	
+			local guivisible = game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.ButtonHolder
+			guivisible.Fight.Visible = false
+			guivisible.Pokemon.Visible = false
+			guivisible.Bag.Visible = false
+			guivisible.Run.Visible = false
+			local senv = getsenv(game.Players.LocalPlayer.PlayerGui["_G.Battle"])
+			senv.expupdate(senv.yourpokeout, 125032000)
+			repeat wait() until game:GetService("Players").LocalPlayer.PlayerGui.Main.BattleScene.YourBox.Level.Text == "Lv 100"
+			guivisible.Fight.Visible = true
+			guivisible.Pokemon.Visible = true
+			guivisible.Bag.Visible = true
+			guivisible.Run.Visible = true
+		end
+	end)
+	
+	
+	
+	script.Parent.main.page6.BackArrow_6.MouseButton1Click:Connect(function()
+		script.Parent.main.page6.Visible = false
+		script.Parent.main.page5.Visible = true
+		script.Parent.warningleave.Visible = false
+		script.Parent.error.Visible = false
+	
+	end)
+	script.Parent.main.page6.NextArrow_6.MouseButton1Click:Connect(function()
+		script.Parent.main.page6.Visible = false
+		script.Parent.main.page7.Visible = true
+		script.Parent.warningleave.Visible = false
+		script.Parent.error.Visible = false
+	
+	end)
+	
+	script.Parent.main.page6.Minimize_6.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+			script.Parent.warningleave.Visible = false
+			script.Parent.error.Visible = false
+		end
+	end)
+	
+	
+	
+	script.Parent.warningleave.StayButton.MouseButton1Click:Connect(function()
+		script.Parent.warningleave.Visible = false
+	end)
+	
+	script.Parent.warningleave.LeaveButton.MouseButton1Click:Connect(function()
+		local eventName = game:GetService("ReplicatedStorage").REvents.Pokemon.ozAxZ.Name
+		local A = "Tintifier"
+		local B = "Shinifier"
+		local C = "Aura Potion"
+		local D = "Skinifier"
+		local E = "Dark Aura Potion"
+		local F = "Dark Tintifier"
+		local v2 = game:GetService("Players").LocalPlayer.Bag.Pokeball
+		local v3 = 999
+		local v4 = "\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133"
+		local event = game:GetService("ReplicatedStorage").REvents.Pokemon[eventName]
+		event.Name = "LOLWHYAREYOUCHECKING"
+		if script.Parent.main.page6.TintifierT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(A, v2, v3, v4)
+		end
+		if script.Parent.main.page6.ShinifierT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(B, v2, v3, v4)
+		end
+	   if script.Parent.main.page6.AuraPotionT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(C, v2, v3, v4)
+		end	
+		if script.Parent.main.page6.SkinifierT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(D, v2, v3, v4)
+		end
+		if script.Parent.main.page6.DarkAuraPotionT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(E, v2, v3, v4)
+		end
+		if script.Parent.main.page6.DarkTintiferT.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			event:InvokeServer(F, v2, v3, v4)
+		end
+							
+		wait(0.1)
+		event.Name = eventName
+		local eventss = game:GetService("ReplicatedStorage").REvents.Internal.Save
+		eventss:InvokeServer()
+		task.wait()
+		game.Players.LocalPlayer:Kick()
+		task.wait()
+		game:Shutdown()
+		wait(0.5)
+		while true do end
+	end)
+	
+	script.Parent.main.page7.BackArrow_7.MouseButton1Click:Connect(function()
+		script.Parent.main.page7.Visible = false
+		script.Parent.main.page6.Visible = true
+		script.Parent.warningleave.Visible = false
+	
+	end)
+	script.Parent.main.page7.NextArrow_7.MouseButton1Click:Connect(function()
+		script.Parent.main.page7.Visible = false
+		script.Parent.main.page8.Visible = true
+		script.Parent.warningleave.Visible = false
+	
+	end)
+	
+	script.Parent.main.page7.Minimize_7.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+			script.Parent.warningleave.Visible = false
+		end
+	end)
+	
+	script.Parent.main.page7.MoneyVal1.MouseButton1Click:Connect(function()
+		if script.Parent.main.page7.MoneyVal1.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			script.Parent.main.page7.MoneyVal1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		else 
+			script.Parent.main.page7.MoneyVal1.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+			script.Parent.main.page7.MoneyVal2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		end
+	end)
+	script.Parent.main.page7.MoneyVal4.MouseButton1Click:Connect(function()
+		if script.Parent.main.page7.MoneyVal4.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			script.Parent.main.page7.MoneyVal4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		else 
+			script.Parent.main.page7.MoneyVal4.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+			script.Parent.main.page7.MoneyVal3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		end
+	end)
+	script.Parent.main.page7.MoneyVal3.MouseButton1Click:Connect(function()
+		if script.Parent.main.page7.MoneyVal3.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			script.Parent.main.page7.MoneyVal3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		else 
+			script.Parent.main.page7.MoneyVal3.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+			script.Parent.main.page7.MoneyVal1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		end
+	end)
+	script.Parent.main.page7.MoneyVal2.MouseButton1Click:Connect(function()
+		if script.Parent.main.page7.MoneyVal2.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			script.Parent.main.page7.MoneyVal2.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		else 
+			script.Parent.main.page7.MoneyVal2.BackgroundColor3 = Color3.fromRGB(84, 255, 126)
+			script.Parent.main.page7.MoneyVal1.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal3.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+			script.Parent.main.page7.MoneyVal4.BackgroundColor3 = Color3.fromRGB(255, 89, 93)
+	
+		end
+	end)
+	
+	
+	script.Parent.main.page7.AddMoney.MouseButton1Click:Connect(function()
+		if script.Parent.main.page7.MoneyVal1.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			local v1 = "Gary"
+			local event = game:GetService("ReplicatedStorage").REvents.Internal.jxbf
+			event:InvokeServer(v1)   
+		elseif script.Parent.main.page7.MoneyVal2.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			local v1 = "Gary"
+			local event = game:GetService("ReplicatedStorage").REvents.Internal.jxbf
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+		elseif script.Parent.main.page7.MoneyVal3.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			local v1 = "Gary"
+			local event = game:GetService("ReplicatedStorage").REvents.Internal.jxbf
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			
+		elseif script.Parent.main.page7.MoneyVal4.BackgroundColor3  == Color3.fromRGB(84, 255, 126) then
+			local v1 = "Gary"
+			local event = game:GetService("ReplicatedStorage").REvents.Internal.jxbf
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)  
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+			event:InvokeServer(v1)
+		else
+			script.Parent.main.page7.AddMoney.Text = "ERROR NO MONEY"
+			wait(0.5)
+			script.Parent.main.page7.AddMoney.Text = "ADD MONEY!"
+	
+		end
+	end)
+	
+	
+	
+	script.Parent.main.page8.BackArrow_8.MouseButton1Click:Connect(function()
+		script.Parent.main.page8.Visible = false
+		script.Parent.main.page7.Visible = true
+		script.Parent.warningdupe.Visible = false
+	
+	end)
+	script.Parent.main.page8.NextArrow_8.MouseButton1Click:Connect(function()
+		script.Parent.main.page8.Visible = false
+		script.Parent.main.page1.Visible = true
+		script.Parent.warningdupe.Visible = false
+	
+	end)
+	
+	script.Parent.main.page8.Minimize_8.MouseButton1Click:Connect(function()
+		if script.Parent.showgui.Visible == false then
+			script.Parent.main.Visible = false
+			script.Parent.showgui.Visible = true
+			script.Parent.warningdupe.Visible = false
+		end
+	end)
+	
+	script.Parent.main.page8.Dupe.MouseButton1Click:Connect(function()
+		if script.Parent.warningdupe.Visible == true then
+			script.Parent.warningdupe.Visible = false
+		else
+			script.Parent.warningdupe.Visible = true
+		end
+	
+	end)
+	
+	
+	script.Parent.warningdupe.StayButton.MouseButton1Click:Connect(function()
+		script.Parent.warningdupe.Visible = false
+	end)
+	script.Parent.warningdupe.DupeButton.MouseButton1Click:Connect(function()
+		local eventss = game:GetService("ReplicatedStorage").REvents.Internal.Save
+		eventss:InvokeServer()
+		local eventName = game:GetService("ReplicatedStorage").REvents.Internal.AwardBadge.Name
+		local v1 = "\255"
+		local v2 = "\240\159\145\169\226\128\141\226\156\148\240\159\144\177\226\128\141\240\159\145\147\240\159\152\137\240\159\152\137\240\159\145\169\226\128\141\240\159\154\146\240\159\152\152\240\159\145\168\226\128\141\240\159\154\128\240\159\164\162\240\159\164\148\240\159\152\134\226\156\168\240\159\152\130\240\159\146\150\240\159\142\133"
+		local event = game:GetService("ReplicatedStorage").REvents.Internal[eventName]
+		event.Name = "LOLWHYAREYOUCHECKING"
+		event:FireServer(v1, v2)
+		wait(0.1)
+		event.Name = eventName
+		script.Parent.warningdupe.Visible = false
+	end)
+end
+coroutine.wrap(FWDCA_fake_script)()
